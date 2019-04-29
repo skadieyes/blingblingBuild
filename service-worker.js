@@ -1,12 +1,12 @@
-importScripts("/precache-manifest.8deee0cf44641e19ed259d315d0b025e.js");
+importScripts("/precache-manifest.f6148d939e717395e8f5a11c3f54c248.js");
 
 
-        importScripts('/blingblingBuild/static/workbox-v3.6.3/workbox-sw.js');
+        importScripts('/static/workbox-v3.6.3/workbox-sw.js');
         workbox.setConfig({
-            modulePathPrefix: '/blingblingBuild/static/workbox-v3.6.3/'
+            modulePathPrefix: '/static/workbox-v3.6.3/'
         });
     /**
- * @file /blingblingBuild/service-worker.js with workbox api
+ * @file service-worker.js with workbox api
  * @desc [example](https://workbox-samples.glitch.me/examples/workbox-sw/)
  * @author skadyEyes(511767852@qq.com)
  */

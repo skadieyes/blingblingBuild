@@ -1481,7 +1481,7 @@ this.workbox.core = (function () {
    * @private
    */
   function showWarning(cacheControlHeader) {
-    const docsUrl = 'https://developers.google.com/web/tools/workbox/guides//blingblingBuild/service-worker-checklist#cache-control_of_your_service_worker_file';
+    const docsUrl = 'https://developers.google.com/web/tools/workbox/guides/service-worker-checklist#cache-control_of_your_service_worker_file';
     defaultExport.warn(`You are setting a 'cache-control' header of ` + `'${cacheControlHeader}' on your service worker file. This should be ` + `set to 'max-age=0' or 'no-cache' to ensure the latest service worker ` + `is served to your users. Learn more here: ${docsUrl}`);
   }
 

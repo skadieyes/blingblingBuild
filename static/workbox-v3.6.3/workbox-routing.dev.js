@@ -539,7 +539,7 @@ this.workbox.routing = (function (assert_mjs,logger_mjs,WorkboxError_mjs,getFrie
   /**
    * NavigationRoute makes it easy to create a [Route]{@link
    * workbox.routing.Route} that matches for browser
-   * [navigation requests]{@link https://developers.google.com/web/fundamentals/primers//blingblingBuild/service-workers/high-performance-loading#first_what_are_navigation_requests}.
+   * [navigation requests]{@link https://developers.google.com/web/fundamentals/primers/service-workers/high-performance-loading#first_what_are_navigation_requests}.
    *
    * It will only match incoming Requests whose
    * [`mode`]{@link https://fetch.spec.whatwg.org/#concept-request-mode}
