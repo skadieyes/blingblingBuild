@@ -90,7 +90,7 @@ this.workbox.navigationPreload = (function (exports,logger_mjs) {
    *
    * @param {string} [headerValue] Optionally, allows developers to
    * [override](https://developers.google.com/web/updates/2017/02/navigation-preload#changing_the_header)
-   * the value of the `Service-Worker-Navigation-Preload` header which will be
+   * the value of the `/blingblingBuild/service-worker-Navigation-Preload` header which will be
    * sent to the server when making the navigation request.
    *
    * @memberof workbox.navigationPreload
@@ -99,7 +99,7 @@ this.workbox.navigationPreload = (function (exports,logger_mjs) {
     if (isSupported()) {
       self.addEventListener('activate', event => {
         event.waitUntil(self.registration.navigationPreload.enable().then(() => {
-          // Defaults to Service-Worker-Navigation-Preload: true if not set.
+          // Defaults to /blingblingBuild/service-worker-Navigation-Preload: true if not set.
           if (headerValue) {
             self.registration.navigationPreload.setHeaderValue(headerValue);
           }
