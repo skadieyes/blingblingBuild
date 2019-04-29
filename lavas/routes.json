@@ -1,0 +1,32 @@
+{
+    "mode": "history",
+    "base": "/",
+    "routes": [
+        {
+            "path": "/appshell",
+            "name": "appshell",
+            "meta": {}
+        },
+        {
+            "path": "/audio-view",
+            "name": "audioView",
+            "meta": {}
+        },
+        {
+            "path": "/chat-list",
+            "name": "chatList",
+            "meta": {}
+        },
+        {
+            "path": "/",
+            "name": "index",
+            "meta": {}
+        },
+        {
+            "path": "/error",
+            "name": "error",
+            "meta": {},
+            "alias": "*"
+        }
+    ]
+}
